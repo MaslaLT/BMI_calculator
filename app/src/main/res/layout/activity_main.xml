@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/bmi_1"
+            android:contentDescription="@string/bmi_calculator"
+            android:layout_height="250dp"
+            android:layout_width="250dp"
+            />
+
+        <TextView
+            android:textSize="28sp"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_calculator"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/bmi_radio_button_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bmi_female"/>
+
+            <RadioButton
+                android:id="@+id/bmi_radio_button_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bmi_male"/>
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/bmi_age"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/bmi_age"/>
+
+        <EditText
+            android:id="@+id/bmi_height"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/bsi_height_cm"/>
+
+        <EditText
+            android:id="@+id/bmi_weight"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/bsi_weight_kg"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/bmi_button_calculate"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_calculate"/>
+
+        <TextView
+            android:id="@+id/bmi_calculated_result"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_enter_values_for_calculation"/>
+
+    </LinearLayout>
+
+</ScrollView>

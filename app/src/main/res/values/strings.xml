@@ -1,0 +1,15 @@
+<resources>
+    <string name="bmi_calculator">BMI calculator</string>
+    <string name="bmi_female">Female</string>
+    <string name="bmi_male">Male</string>
+    <string name="bmi_age">Age</string>
+    <string name="bsi_height_cm">Height CM</string>
+    <string name="bsi_weight_kg">Weight KG</string>
+    <string name="bmi_calculate">Calculate</string>
+    <string name="bmi_enter_values_for_calculation">Enter values for calculation</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="bmi_result_format">Your BMI is: %1$s</string>
+    <string name="bmi_error_missing_input">Please enter both height and weight.</string>
+    <string name="bmi_error_invalid_input">Invalid input. Please enter numbers only.</string>
+
+</resources>
